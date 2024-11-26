@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.mission-governance]
+path = 'contracts/mission-governance.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.space-mission-token]
 path = 'contracts/space-mission-token.clar'
 clarity_version = 2
